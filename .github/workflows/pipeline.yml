@@ -28,3 +28,4 @@ jobs:
             heroku_email: "eshively@uci.edu"
             healthcheck: "https://rocky-shore-37778.herokuapp.com/health"
             checkstring: "ok"
+            rollbackonhealthcheckfailed: true
